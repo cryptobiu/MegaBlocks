@@ -1,0 +1,16 @@
+---
+
+## How to Cite
+
+If you use MegaBlocks in your research, please cite our paper:
+
+```bibtex
+@inproceedings{Asharov:Megablocks2025,
+  author    = {Asharov, Gilad and Eiluz, Eliran and Komargodski, Ilan and Lin, Wei-Kai},
+  title     = {MegaBlocks: Breaking the Logarithmic I/O-Overhead Barrier for Oblivious RAM},
+  booktitle = {Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security (CCS '25)},
+  year      = {2025},
+  publisher = {ACM},
+  pages     = {TBD},
+  doi       = {10.1145/3719027.3765159}
+}
