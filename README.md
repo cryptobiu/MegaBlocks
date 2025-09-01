@@ -52,6 +52,13 @@ The remaining directories (e.g., config/, MegaBlocksORAM/, PathORAM/, RemoteRam/
    Make sure your working directory is set to the project's root folder (e.g., a folder named MegaBlocksCode/MegaBlocks).
    In your IDE, mark this folder as the Sources Root so that all package imports are resolved correctly.
 
+2. **Install Dependencies**:
+   Install the required packages by running:
+   ```
+   pip install -r requirements.txt
+   ```
+   Follow the on-screen prompts to specify the power-of-2 for N and select the desired ORAM mode.
+
 2. **Execute the Main Script**:
    Run the interactive script by executing:
    ```
