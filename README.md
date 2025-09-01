@@ -57,16 +57,15 @@ The remaining directories (e.g., config/, MegaBlocksORAM/, PathORAM/, RemoteRam/
    ```
    pip install -r requirements.txt
    ```
-   Follow the on-screen prompts to specify the power-of-2 for N and select the desired ORAM mode.
 
-2. **Execute the Main Script**:
+3. **Execute the Main Script**:
    Run the interactive script by executing:
    ```
    python main.py
    ```
    Follow the on-screen prompts to specify the power-of-2 for N and select the desired ORAM mode.
 
-3. **Run Paper Table Experiments (Optional)**:
+4. **Run Paper Table Experiments (Optional)**:
    To reproduce the experiments from the paper, open paper_tables.py and modify main.py to call the desired function (e.g., run_table_1(), run_table_2(), etc.).
 
 ## Requirements
