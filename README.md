@@ -1,5 +1,7 @@
 # MegaBlocks ORAM Implementation Overview
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1702635.svg)](https://doi.org/10.5281/zenodo.1702635)
+
 This project implements a MegaBlocks‐style ORAM system based on the paper: 
 > "MegaBlocks: Breaking the Logarithmic I/O Overhead Barrier for Oblivious RAM"
 
