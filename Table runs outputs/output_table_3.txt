@@ -1,0 +1,399 @@
+/Users/eliranei/PycharmProjects/66a213b569e4ebe495abf51f/.venv/bin/python /Users/eliranei/PycharmProjects/66a213b569e4ebe495abf51f/MegaBlocksCode/MegaBlocks/main.py 
+Mode 1
+[==================================================] 100%  progress
+
+N = 65536
+B = 1024
+w = 32
+q = 32
+b = 32768
+b in KB = 4.0
+Total read and write operations: 683708
+Bandwidth Overhead in KB: 20.8651123046875 KB
+Bandwidth Overhead in MB: 0.020376086235046387 MB
+I/O overhead per access: 5.216278076171875
+T * Theoretical Amortized Cost = 2034668.180645161
+I/O Overhead Theorem (4L + 2 + o(1)) = 15.523286290322579
+Ratio: Total ops / (T * log_q(N)) = 1.6300868988037112
+Ratio: Total ops / (T * log(N)/loglog(N)) = 1.1316824916298818
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.3360292388232105
+Ratio: Total ops / (T * log(N)/log(B)) = 3.2601737976074223
+Error probability: 4.587271939949413e-69
+Log2(Error probability): -227.01540211227658
+Load factors: [0, 0, 0, 31]
+Local levels: [0, 1]
+Mode 2
+[==================================================] 100%  progress
+
+N = 65536
+B = 1024
+w = 32
+q = 32
+b = 32768
+b in KB = 4.0
+Total read and write operations: 683708
+Bandwidth Overhead in KB: 20.8651123046875 KB
+Bandwidth Overhead in MB: 0.020376086235046387 MB
+I/O overhead per access: 5.216278076171875
+Load factors: [0, 0, 0, 31]
+Local levels: [0, 1]
+Mode 5
+
+
+N = 65536
+B = 1024
+w = 32
+q = 32
+b = 32768
+b in KB = 4.0
+Total read and write operations: 683708
+Bandwidth Overhead in KB: 20.8651123046875 KB
+Bandwidth Overhead in MB: 0.020376086235046387 MB
+I/O overhead per access: 5.216278076171875
+T * Theoretical Amortized Cost = 2034668.180645161
+I/O Overhead Theorem (4L + 2 + o(1)) = 15.523286290322579
+Ratio: Total ops / (T * log_q(N)) = 1.6300868988037112
+Ratio: Total ops / (T * log(N)/loglog(N)) = 1.1316824916298818
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.3360292388232105
+Ratio: Total ops / (T * log(N)/log(B)) = 3.2601737976074223
+Error probability: 4.587271939949413e-69
+Log2(Error probability): -227.01540211227658
+Local levels: [0, 1]
+#####################################
+
+
+
+
+
+Mode 1
+[==================================================] 100%  progress
+
+N = 65536
+B = 2048
+w = 32
+q = 46
+b = 65536
+b in KB = 8.0
+Total read and write operations: 496567
+Bandwidth Overhead in KB: 30.30804443359375 KB
+Bandwidth Overhead in MB: 0.029597699642181396 MB
+I/O overhead per access: 3.7885055541992188
+T * Theoretical Amortized Cost = 1845816.3805207373
+I/O Overhead Theorem (4L + 2 + o(1)) = 14.082461399236582
+Ratio: Total ops / (T * log_q(N)) = 1.3078778218428435
+Ratio: Total ops / (T * log(N)/loglog(N)) = 0.8219242422513346
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.26902296741992815
+Ratio: Total ops / (T * log(N)/log(B)) = 2.604597568511963
+Error probability: 3.4830756595622466e-143
+Log2(Error probability): -473.2353557573263
+Load factors: [18, 43, 45]
+Local levels: [0, 1]
+Mode 2
+[==================================================] 100%  progress
+
+N = 65536
+B = 2048
+w = 32
+q = 46
+b = 65536
+b in KB = 8.0
+Total read and write operations: 496567
+Bandwidth Overhead in KB: 30.30804443359375 KB
+Bandwidth Overhead in MB: 0.029597699642181396 MB
+I/O overhead per access: 3.7885055541992188
+Load factors: [18, 43, 45]
+Local levels: [0, 1]
+Mode 5
+
+
+N = 65536
+B = 2048
+w = 32
+q = 46
+b = 65536
+b in KB = 8.0
+Total read and write operations: 496506
+Bandwidth Overhead in KB: 30.3043212890625 KB
+Bandwidth Overhead in MB: 0.029594063758850098 MB
+I/O overhead per access: 3.7880401611328125
+T * Theoretical Amortized Cost = 1845816.3805207373
+I/O Overhead Theorem (4L + 2 + o(1)) = 14.082461399236582
+Ratio: Total ops / (T * log_q(N)) = 1.3077171576280802
+Ratio: Total ops / (T * log(N)/loglog(N)) = 0.8218232742474655
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.26898991971234265
+Ratio: Total ops / (T * log(N)/log(B)) = 2.6042776107788086
+Error probability: 3.4830756595622466e-143
+Log2(Error probability): -473.2353557573263
+Local levels: [0, 1]
+#####################################
+
+
+
+
+
+Mode 1
+[==================================================] 100%  progress
+
+N = 65536
+B = 4096
+w = 32
+q = 64
+b = 131072
+b in KB = 16.0
+Total read and write operations: 315424
+Bandwidth Overhead in KB: 38.50390625 KB
+Bandwidth Overhead in MB: 0.037601470947265625 MB
+I/O overhead per access: 2.406494140625
+T * Theoretical Amortized Cost = 1706463.4920634923
+I/O Overhead Theorem (4L + 2 + o(1)) = 13.019283234126986
+Ratio: Total ops / (T * log_q(N)) = 0.9024353027343749
+Ratio: Total ops / (T * log(N)/loglog(N)) = 0.5220939615155357
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.18484075485176804
+Ratio: Total ops / (T * log(N)/log(B)) = 1.8048706054687498
+Error probability: 2.008074180165409e-291
+Log2(Error probability): -965.6752630474258
+Load factors: [0, 0, 63]
+Local levels: [0, 1]
+Mode 2
+[==================================================] 100%  progress
+
+N = 65536
+B = 4096
+w = 32
+q = 64
+b = 131072
+b in KB = 16.0
+Total read and write operations: 315424
+Bandwidth Overhead in KB: 38.50390625 KB
+Bandwidth Overhead in MB: 0.037601470947265625 MB
+I/O overhead per access: 2.406494140625
+Load factors: [0, 0, 63]
+Local levels: [0, 1]
+Mode 5
+
+
+N = 65536
+B = 4096
+w = 32
+q = 64
+b = 131072
+b in KB = 16.0
+Total read and write operations: 315424
+Bandwidth Overhead in KB: 38.50390625 KB
+Bandwidth Overhead in MB: 0.037601470947265625 MB
+I/O overhead per access: 2.406494140625
+T * Theoretical Amortized Cost = 1706463.4920634923
+I/O Overhead Theorem (4L + 2 + o(1)) = 13.019283234126986
+Ratio: Total ops / (T * log_q(N)) = 0.9024353027343749
+Ratio: Total ops / (T * log(N)/loglog(N)) = 0.5220939615155357
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.18484075485176804
+Ratio: Total ops / (T * log(N)/log(B)) = 1.8048706054687498
+Error probability: 2.008074180165409e-291
+Log2(Error probability): -965.6752630474258
+Local levels: [0, 1]
+#####################################
+
+
+
+
+
+Mode 1
+[==================================================] 100%  progress
+
+N = 65536
+B = 8192
+w = 32
+q = 91
+b = 262144
+b in KB = 32.0
+Total read and write operations: 272734
+Bandwidth Overhead in KB: 66.58544921875 KB
+Bandwidth Overhead in MB: 0.06502485275268555 MB
+I/O overhead per access: 2.0807952880859375
+T * Theoretical Amortized Cost = 1583417.1430340598
+I/O Overhead Theorem (4L + 2 + o(1)) = 12.080514091751555
+Ratio: Total ops / (T * log_q(N)) = 0.8463367764472729
+Ratio: Total ops / (T * log(N)/loglog(N)) = 0.45143291093885723
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.17224393533936458
+Ratio: Total ops / (T * log(N)/log(B)) = 1.6906461715698242
+Error probability: 0.0
+Log2(Error probability) > 1000
+Load factors: [32, 75, 90]
+Local levels: [0, 1]
+Mode 2
+[==================================================] 100%  progress
+
+N = 65536
+B = 8192
+w = 32
+q = 91
+b = 262144
+b in KB = 32.0
+Total read and write operations: 272734
+Bandwidth Overhead in KB: 66.58544921875 KB
+Bandwidth Overhead in MB: 0.06502485275268555 MB
+I/O overhead per access: 2.0807952880859375
+Load factors: [32, 75, 90]
+Local levels: [0, 1]
+Mode 5
+
+
+N = 65536
+B = 8192
+w = 32
+q = 91
+b = 262144
+b in KB = 32.0
+Total read and write operations: 272734
+Bandwidth Overhead in KB: 66.58544921875 KB
+Bandwidth Overhead in MB: 0.06502485275268555 MB
+I/O overhead per access: 2.0807952880859375
+T * Theoretical Amortized Cost = 1583417.1430340598
+I/O Overhead Theorem (4L + 2 + o(1)) = 12.080514091751555
+Ratio: Total ops / (T * log_q(N)) = 0.8463367764472729
+Ratio: Total ops / (T * log(N)/loglog(N)) = 0.45143291093885723
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.17224393533936458
+Ratio: Total ops / (T * log(N)/log(B)) = 1.6906461715698242
+Error probability: 0.0
+Log2(Error probability) > 1000
+Local levels: [0, 1]
+#####################################
+
+
+
+
+
+Mode 1
+[==================================================] 100%  progress
+
+N = 65536
+B = 16384
+w = 32
+q = 128
+b = 524288
+b in KB = 64.0
+Total read and write operations: 264456
+Bandwidth Overhead in KB: 129.12890625 KB
+Bandwidth Overhead in MB: 0.12610244750976562 MB
+I/O overhead per access: 2.01763916015625
+T * Theoretical Amortized Cost = 1483333.831271091
+I/O Overhead Theorem (4L + 2 + o(1)) = 11.316939020317772
+Ratio: Total ops / (T * log_q(N)) = 0.8827171325683594
+Ratio: Total ops / (T * log(N)/loglog(N)) = 0.43773105624984937
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.17828488397206155
+Ratio: Total ops / (T * log(N)/log(B)) = 1.7654342651367188
+Error probability: 0.0
+Log2(Error probability) > 1000
+Load factors: [0, 0, 127]
+Local levels: [0, 1]
+Mode 2
+[==================================================] 100%  progress
+
+N = 65536
+B = 16384
+w = 32
+q = 128
+b = 524288
+b in KB = 64.0
+Total read and write operations: 264456
+Bandwidth Overhead in KB: 129.12890625 KB
+Bandwidth Overhead in MB: 0.12610244750976562 MB
+I/O overhead per access: 2.01763916015625
+Load factors: [0, 0, 127]
+Local levels: [0, 1]
+Mode 5
+
+
+N = 65536
+B = 16384
+w = 32
+q = 128
+b = 524288
+b in KB = 64.0
+Total read and write operations: 264456
+Bandwidth Overhead in KB: 129.12890625 KB
+Bandwidth Overhead in MB: 0.12610244750976562 MB
+I/O overhead per access: 2.01763916015625
+T * Theoretical Amortized Cost = 1483333.831271091
+I/O Overhead Theorem (4L + 2 + o(1)) = 11.316939020317772
+Ratio: Total ops / (T * log_q(N)) = 0.8827171325683594
+Ratio: Total ops / (T * log(N)/loglog(N)) = 0.43773105624984937
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.17828488397206155
+Ratio: Total ops / (T * log(N)/log(B)) = 1.7654342651367188
+Error probability: 0.0
+Log2(Error probability) > 1000
+Local levels: [0, 1]
+#####################################
+
+
+
+
+
+Mode 1
+[==================================================] 100%  progress
+
+N = 65536
+B = 32768
+w = 32
+q = 182
+b = 1048576
+b in KB = 128.0
+Total read and write operations: 262777
+Bandwidth Overhead in KB: 256.6181640625 KB
+Bandwidth Overhead in MB: 0.25060367584228516 MB
+I/O overhead per access: 2.0048294067382812
+T * Theoretical Amortized Cost = 1395451.298072722
+I/O Overhead Theorem (4L + 2 + o(1)) = 10.64644850214174
+Ratio: Total ops / (T * log_q(N)) = 0.9407404671513999
+Ratio: Total ops / (T * log(N)/loglog(N)) = 0.4349519533236783
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.18830968903244785
+Ratio: Total ops / (T * log(N)/log(B)) = 1.8795275688171387
+Error probability: 0.0
+Log2(Error probability) > 1000
+Load factors: [32, 174, 181]
+Local levels: [0, 1]
+Mode 2
+[==================================================] 100%  progress
+
+N = 65536
+B = 32768
+w = 32
+q = 182
+b = 1048576
+b in KB = 128.0
+Total read and write operations: 262777
+Bandwidth Overhead in KB: 256.6181640625 KB
+Bandwidth Overhead in MB: 0.25060367584228516 MB
+I/O overhead per access: 2.0048294067382812
+Load factors: [32, 174, 181]
+Local levels: [0, 1]
+Mode 5
+
+
+N = 65536
+B = 32768
+w = 32
+q = 182
+b = 1048576
+b in KB = 128.0
+Total read and write operations: 262486
+Bandwidth Overhead in KB: 256.333984375 KB
+Bandwidth Overhead in MB: 0.25032615661621094 MB
+I/O overhead per access: 2.0026092529296875
+T * Theoretical Amortized Cost = 1395451.298072722
+I/O Overhead Theorem (4L + 2 + o(1)) = 10.64644850214174
+Ratio: Total ops / (T * log_q(N)) = 0.9396986884723639
+Ratio: Total ops / (T * log(N)/loglog(N)) = 0.4344702862888267
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.18810115434520946
+Ratio: Total ops / (T * log(N)/log(B)) = 1.877446174621582
+Error probability: 0.0
+Log2(Error probability) > 1000
+Local levels: [0, 1]
+#####################################
+
+
+
+
+
+
+Process finished with exit code 0

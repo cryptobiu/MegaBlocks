@@ -1,0 +1,108 @@
+/Users/eliranei/PycharmProjects/66a213b569e4ebe495abf51f/.venv/bin/python /Users/eliranei/PycharmProjects/66a213b569e4ebe495abf51f/MegaBlocksCode/MegaBlocks/main.py 
+
+
+N = 65536
+B = 1024
+w = 32
+q = 32
+b = 32768
+b in KB = 4.0
+Total read and write operations: 1605564
+Bandwidth Overhead in KB: 48.9979248046875 KB
+Bandwidth Overhead in MB: 0.04784953594207764 MB
+I/O overhead per access: 12.249481201171875
+I/O Overhead Theoretical Amortized Cost (4L + 2 + o(1)) = 15.523286290322579
+T * Theoretical Amortized Cost = 2034668.180645161
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.789103606805755
+Ratio: Total ops / (T * log_q(N)) = 3.8279628753662114
+Ratio: Total ops / (T * log(N)/loglog(N)) = 2.657550691217946
+Ratio: Total ops / (T * log(N)/log(B)) = 7.655925750732423
+Error probability: 4.587271939949413e-69
+Log2(Error probability): -227.01540211227658
+Local levels: []
+
+
+N = 1048576
+B = 1024
+w = 32
+q = 32
+b = 32768
+b in KB = 4.0
+Total read and write operations: 33394048
+Bandwidth Overhead in KB: 63.694091796875 KB
+Bandwidth Overhead in MB: 0.06220126152038574 MB
+I/O overhead per access: 15.92352294921875
+I/O Overhead Theoretical Amortized Cost (4L + 2 + o(1)) = 18.72328629032258
+T * Theoretical Amortized Cost = 39265577.29032258
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.8504662430680809
+Ratio: Total ops / (T * log_q(N)) = 3.9808807373046875
+Ratio: Total ops / (T * log(N)/loglog(N)) = 3.020024886472447
+Ratio: Total ops / (T * log(N)/log(B)) = 7.961761474609375
+Error probability: 8.395894391892331e-68
+Log2(Error probability): -222.82142643259618
+Local levels: []
+
+
+N = 16777216
+B = 1024
+w = 32
+q = 32
+b = 32768
+b in KB = 4.0
+Total read and write operations: 666163200
+Bandwidth Overhead in KB: 79.412841796875 KB
+Bandwidth Overhead in MB: 0.07755160331726074 MB
+I/O overhead per access: 19.85321044921875
+I/O Overhead Theoretical Amortized Cost (4L + 2 + o(1)) = 21.92328629032258
+T * Theoretical Amortized Cost = 735623419.0451612
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.9055763897031438
+Ratio: Total ops / (T * log_q(N)) = 4.136085510253906
+Ratio: Total ops / (T * log(N)/loglog(N)) = 3.3553548061686773
+Ratio: Total ops / (T * log(N)/log(B)) = 8.272171020507812
+Error probability: 1.5074767026320636e-66
+Log2(Error probability): -218.65511855646506
+Local levels: []
+
+
+N = 268435456
+B = 1024
+w = 32
+q = 32
+b = 32768
+b in KB = 4.0
+Total read and write operations: 12256624640
+Bandwidth Overhead in KB: 91.3189697265625 KB
+Bandwidth Overhead in MB: 0.08917868137359619 MB
+I/O overhead per access: 22.829742431640625
+I/O Overhead Theoretical Amortized Cost (4L + 2 + o(1)) = 25.12328629032258
+T * Theoretical Amortized Cost = 13487961623.12258
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.9087084455362266
+Ratio: Total ops / (T * log_q(N)) = 4.076739719935826
+Ratio: Total ops / (T * log(N)/loglog(N)) = 3.4885383766860736
+Ratio: Total ops / (T * log(N)/log(B)) = 8.153479439871653
+Error probability: 2.6676927157129915e-65
+Log2(Error probability): -214.5097336717139
+Local levels: []
+
+
+N = 4294967296
+B = 1024
+w = 32
+q = 32
+b = 32768
+b in KB = 4.0
+Total read and write operations: 233063841792
+Bandwidth Overhead in KB: 108.52880859375 KB
+Bandwidth Overhead in MB: 0.10598516464233398 MB
+I/O overhead per access: 27.1322021484375
+I/O Overhead Theoretical Amortized Cost (4L + 2 + o(1)) = 28.323286290322578
+T * Theoretical Amortized Cost = 243295176664.36127
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.9579468240487318
+Ratio: Total ops / (T * log_q(N)) = 4.239406585693359
+Ratio: Total ops / (T * log(N)/loglog(N)) = 3.7910754569422016
+Ratio: Total ops / (T * log(N)/log(B)) = 8.478813171386719
+Error probability: 4.667893020229212e-64
+Log2(Error probability): -210.38062657536062
+Local levels: []
+
+Process finished with exit code 0

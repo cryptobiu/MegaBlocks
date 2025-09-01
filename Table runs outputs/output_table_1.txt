@@ -1,0 +1,208 @@
+/Users/eliranei/PycharmProjects/66a213b569e4ebe495abf51f/.venv/bin/python /Users/eliranei/PycharmProjects/66a213b569e4ebe495abf51f/MegaBlocksCode/MegaBlocks/main.py 
+Mega Blocks ORAM
+
+
+
+N = 137438953472
+B = 512
+w = 64
+q = 23
+b = 32768
+b in KB = 4.0
+Total read and write operations: 10095367852942
+Bandwidth Overhead in KB: 146.90693719519186 KB
+Bandwidth Overhead in MB: 0.14346380585467955 MB
+I/O overhead per access: 36.726734298797965
+T * Theoretical Amortized Cost = 9825477081081.707
+I/O Overhead Theorem (4L + 2 + o(1)) = 35.744877390540594
+Ratio: Total ops / (T * log_q(N)) = 4.490152920115046
+Ratio: Total ops / (T * log(N)/loglog(N)) = 4.646117500436402
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 1.0274684648524548
+Ratio: Total ops / (T * log(N)/log(B)) = 8.933529964572477
+Error probability: 1.8933729591508886e-25
+Log2(Error probability): -82.12724374914062
+Local levels: [0, 1, 2]
+Path ORAM
+
+
+
+N = 137438953472
+B = 512
+w = 64
+q = 23
+b = 32768
+b in KB = 4.0
+Total read and write operations: 105553116266496
+Bandwidth Overhead in KB: 1536.0 KB
+Bandwidth Overhead in MB: 1.5 MB
+I/O overhead per access: 384.0
+b size: 4 KB
+Local memory in server blocks: 400
+Local memory in MB: 1.5625
+Local memory in GB: 0.00152587890625
+Mega Blocks ORAM
+
+
+
+N = 137438953472
+B = 1024
+w = 64
+q = 32
+b = 65536
+b in KB = 8.0
+Total read and write operations: 6484427538432
+Bandwidth Overhead in KB: 188.7216796875 KB
+Bandwidth Overhead in MB: 0.18429851531982422 MB
+I/O overhead per access: 23.5902099609375
+T * Theoretical Amortized Cost = 8884957281035.562
+I/O Overhead Theorem (4L + 2 + o(1)) = 32.323286290322585
+Ratio: Total ops / (T * log_q(N)) = 3.1878662109375
+Ratio: Total ops / (T * log(N)/loglog(N)) = 2.98428078159043
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.7298209021525228
+Ratio: Total ops / (T * log(N)/log(B)) = 6.375732421875
+Error probability: 1.64983450094006e-62
+Log2(Error probability): -205.2372205716655
+Local levels: [0, 1, 2]
+Path ORAM
+
+
+
+N = 137438953472
+B = 1024
+w = 64
+q = 32
+b = 65536
+b in KB = 8.0
+Total read and write operations: 98956046499840
+Bandwidth Overhead in KB: 2880.0 KB
+Bandwidth Overhead in MB: 2.8125 MB
+I/O overhead per access: 360.0
+b size: 8 KB
+Local memory in server blocks: 400
+Local memory in MB: 3.125
+Local memory in GB: 0.0030517578125
+Mega Blocks ORAM
+
+
+
+N = 137438953472
+B = 2048
+w = 64
+q = 46
+b = 131072
+b in KB = 16.0
+Total read and write operations: 4952650258287
+Bandwidth Overhead in KB: 288.28218685736647 KB
+Bandwidth Overhead in MB: 0.28152557310289694 MB
+I/O overhead per access: 18.017636678585404
+T * Theoretical Amortized Cost = 8051184759972.5625
+I/O Overhead Theorem (4L + 2 + o(1)) = 29.290039528759962
+Ratio: Total ops / (T * log_q(N)) = 2.6897711485376155
+Ratio: Total ops / (T * log(N)/loglog(N)) = 2.2793220983881564
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.615145522794322
+Ratio: Total ops / (T * log(N)/log(B)) = 5.356594688228093
+Error probability: 1.2527049775457e-136
+Log2(Error probability): -451.4571742167152
+Local levels: [0, 1, 2]
+Path ORAM
+
+
+
+N = 137438953472
+B = 2048
+w = 64
+q = 46
+b = 131072
+b in KB = 16.0
+Total read and write operations: 92358976733184
+Bandwidth Overhead in KB: 5376.0 KB
+Bandwidth Overhead in MB: 5.25 MB
+I/O overhead per access: 336.0
+b size: 16 KB
+Local memory in server blocks: 400
+Local memory in MB: 6.25
+Local memory in GB: 0.006103515625
+Mega Blocks ORAM
+
+
+
+N = 137438953472
+B = 4096
+w = 64
+q = 64
+b = 262144
+b in KB = 32.0
+Total read and write operations: 3532942999552
+Bandwidth Overhead in KB: 411.2886962890625 KB
+Bandwidth Overhead in MB: 0.4016491174697876 MB
+I/O overhead per access: 12.852771759033203
+T * Theoretical Amortized Cost = 7427004022523.9375
+I/O Overhead Theorem (4L + 2 + o(1)) = 27.019283234126988
+Ratio: Total ops / (T * log_q(N)) = 2.0842332582216003
+Ratio: Total ops / (T * log(N)/loglog(N)) = 1.625940583579558
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.4756888496138704
+Ratio: Total ops / (T * log(N)/log(B)) = 4.168466516443201
+Error probability: 7.222135740486212e-285
+Log2(Error probability): -943.8970815068147
+Local levels: [0, 1, 2]
+Path ORAM
+
+
+
+N = 137438953472
+B = 4096
+w = 64
+q = 64
+b = 262144
+b in KB = 32.0
+Total read and write operations: 85761906966528
+Bandwidth Overhead in KB: 9984.0 KB
+Bandwidth Overhead in MB: 9.75 MB
+I/O overhead per access: 312.0
+b size: 32 KB
+Local memory in server blocks: 400
+Local memory in MB: 12.5
+Local memory in GB: 0.01220703125
+Mega Blocks ORAM
+
+
+
+N = 137438953472
+B = 8192
+w = 64
+q = 91
+b = 524288
+b in KB = 64.0
+Total read and write operations: 2565052889626
+Bandwidth Overhead in KB: 597.2229152978398 KB
+Bandwidth Overhead in MB: 0.5832255032205467 MB
+I/O overhead per access: 9.331608051528747
+T * Theoretical Amortized Cost = 6868680073503.85
+I/O Overhead Theorem (4L + 2 + o(1)) = 24.988112540100154
+Ratio: Total ops / (T * log_q(N)) = 1.6413024016803721
+Ratio: Total ops / (T * log(N)/loglog(N)) = 1.1804955791247669
+Ratio: Total ops / (T * Theoretical Amortized Cost) = 0.3734418930823074
+Ratio: Total ops / (T * log(N)/log(B)) = 3.278673099185775
+Error probability: 0.0
+Log2(Error probability) > 1000
+Local levels: [0, 1, 2]
+Path ORAM
+
+
+
+N = 137438953472
+B = 8192
+w = 64
+q = 91
+b = 524288
+b in KB = 64.0
+Total read and write operations: 79164837199872
+Bandwidth Overhead in KB: 18432.0 KB
+Bandwidth Overhead in MB: 18.0 MB
+I/O overhead per access: 288.0
+b size: 64 KB
+Local memory in server blocks: 400
+Local memory in MB: 25.0
+Local memory in GB: 0.0244140625
+
+Process finished with exit code 0
