@@ -76,13 +76,11 @@ Python 3.11 is required.
 
 For further details on the implementation, refer to the inline code documentation within the source files.
 
----
 
 ## Acknowledgments
 
 The implementation of MegaBlocks in this repository is based on the paper **"MegaBlocks: Breaking the Logarithmic I/O-Overhead Barrier for Oblivious RAM"** by Gilad Asharov, Eliran Eiluz, Ilan Komargodski, and Wei-Kai Lin.
 
----
 
 ## License
 
