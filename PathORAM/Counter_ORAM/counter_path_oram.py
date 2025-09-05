@@ -1,7 +1,7 @@
 import math
 from PathORAM.Counter_ORAM.counter_local_pos_path_oram import CounterLocalPosPathORAM
 from RemoteRam.counter_remote_ram import CounterRemoteRam
-from MegaBlocksCode.MegaBlocks.config.utils import next_power_of_two_greater_or_equal
+from config.utils import next_power_of_two_greater_or_equal
 
 
 class CounterPathORAM:
